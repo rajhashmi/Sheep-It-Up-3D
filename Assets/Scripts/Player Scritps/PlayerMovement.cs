@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void Jump(bool left) {
 
-        // SoundManager.instance.JumpSound();
+        SoundManager.instance.JumpSound();
 
         if (left) {
 
